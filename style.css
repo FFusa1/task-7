@@ -1,0 +1,45 @@
+header{
+    padding: 60px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.logo{
+    width: 200px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+}
+.container ul{
+    display: flex;
+}
+
+.container ul li{
+    list-style: none;
+    padding: 20px;
+    font: bold;
+    font-family: 'Proxima Nova Extra Condensed', sans-serif;
+    font-weight: 700;
+}
+.container ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.search_button{
+    width: 17px;
+}
+
+.control_buttons{
+    align-items: center;
+    display: flex;
+}
+
+.control_buttons img{
+    margin: 10px;
+}
