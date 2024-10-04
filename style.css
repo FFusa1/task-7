@@ -41,6 +41,7 @@ header{
 }
 .container a{
     text-align: center;
+ display: flex;
 }
 
 .control_buttons{
@@ -64,6 +65,7 @@ background-color: #66971b;
     border: transparent;
     border-radius: 8px;
     position:relative;
+    transition: 0.4s ease;
 }
 
 
@@ -76,12 +78,13 @@ background-color: #66971b;
 }
 .first_part img{
     width: 100%;
+    display:block;
 }
 .photo_text{
     position: absolute;
     font-family: 'Proxima Nova Extra Condensed', sans-serif;
-    right: 160px;
-    top: 60px;
+    top: 16%;
+    right: 10%;
     display: block;
     width: 500px;
     padding: 40px;
@@ -95,4 +98,13 @@ background-color: #66971b;
     font-size:medium;
     font: bold;
     font-family: 'Proxima Nova Extra Condensed', sans-serif;
+}
+.learn_more a{
+    text-decoration: none;
+    color: black;
+}
+
+.learn_more:hover{
+    background-color: #66971b;
+    transition: 0.4s ease;
 }
