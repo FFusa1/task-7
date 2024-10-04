@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Proxima Nova Extra Condensed', sans-serif;
+}
+
+
 /* navbar */
 
 header{
@@ -14,7 +21,7 @@ header{
 .container{
     display: flex;
     justify-content: space-evenly;
-    position: sticky;
+
 }
 .container ul{
     display: flex;
@@ -111,3 +118,41 @@ transition: 0.4s;
     background-color: #66971b;
     transition: 0.4s ease;
 }
+
+
+
+
+/* second part */
+
+.container_scn {
+    position: relative; 
+    text-align: center; 
+  }
+  
+  .bckg_scn {
+    width: 100%; 
+    height: auto; 
+  }
+  
+  .firstlayout h1 {
+    position: absolute;
+    top: 0; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    margin: 0;
+    padding: 20px 0; 
+    color: #000000; 
+    font-size: 3em;
+    padding-top: 80PX;
+  }
+  .firstlayout p {
+    position: absolute;
+    top: 100px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    margin: 0;
+    padding: 20px 0; 
+    color: #000000; 
+    font-size: 3em;
+    padding-top: 80PX;
+  }
