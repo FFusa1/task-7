@@ -1,3 +1,5 @@
+/* navbar */
+
 header{
     padding: 60px;
     margin: 0px;
@@ -59,4 +61,35 @@ background-color: #66971b;
     border: transparent;
     border-radius: 8px;
     position:relative;
+}
+
+
+/* first part */
+
+.first_part{
+    padding-top: 30px;
+    position: relative;
+    align-items: center;
+}
+.first_part img{
+    width: 100%;
+}
+.photo_text{
+    position: absolute;
+    font-family: 'Proxima Nova Extra Condensed', sans-serif;
+    right: 160px;
+    top: 60px;
+    display: block;
+    width: 500px;
+    padding: 40px;
+    background-color: rgba(241, 241, 241, 0.26);
+}
+.learn_more{
+    height: 40px;
+    width: 140px;
+    background-color: white;
+    border: transparent;
+    font-size:medium;
+    font: bold;
+    font-family: 'Proxima Nova Extra Condensed', sans-serif;
 }
