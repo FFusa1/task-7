@@ -39,6 +39,9 @@ header{
 .search_button{
     width: 17px;
 }
+.container a{
+    text-align: center;
+}
 
 .control_buttons{
     align-items: center;
