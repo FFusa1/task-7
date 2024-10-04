@@ -41,7 +41,8 @@ header{
 }
 .container a{
     text-align: center;
- display: flex;
+    display: flex;
+    padding: 0px;
 }
 
 .control_buttons{
@@ -57,6 +58,7 @@ header{
 border: transparent;
 border-radius: 100%;
 background-color: #66971b;
+transition: 0.4s;
 }
 
 
