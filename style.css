@@ -21,9 +21,12 @@ header{
 .container ul li{
     list-style: none;
     padding: 20px;
+    padding-bottom: 0px;
     font: bold;
     font-family: 'Proxima Nova Extra Condensed', sans-serif;
     font-weight: 700;
+    box-sizing: border-box;
+    border-bottom: ridge 2px black;
 }
 .container ul li a{
     text-decoration: none;
@@ -42,4 +45,18 @@ header{
 
 .control_buttons img{
     margin: 10px;
+}
+
+.control_buttons a :hover{
+border: transparent;
+border-radius: 100%;
+background-color: #66971b;
+}
+
+
+.container ul li :hover{
+    color: #66971b;
+    border: transparent;
+    border-radius: 8px;
+    position:relative;
 }
