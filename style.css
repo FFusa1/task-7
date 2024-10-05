@@ -1,345 +1,351 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Proxima Nova Extra Condensed', sans-serif;
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Proxima Nova Extra Condensed', sans-serif;
 }
 
 
 /* navbar */
 
-header{
-    padding: 60px;
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
+header {
+	padding: 60px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
 }
 
-.logo{
-    width: 200px;
+.logo {
+	width: 200px;
 }
 
-.container{
-    display: flex;
-    justify-content: space-evenly;
+.container {
+	display: flex;
+	justify-content: space-evenly;
 
 }
-.container ul{
-    display: flex;
+
+.container ul {
+	display: flex;
 }
 
-.container ul li{
-    list-style: none;
-    padding: 20px;
-    padding-bottom: 0px;
-    font: bold;
-    font-family: 'Proxima Nova Extra Condensed', sans-serif;
-    font-weight: 700;
-    box-sizing: border-box;
-    border-bottom: ridge 2px black;
-}
-.container ul li a{
-    text-decoration: none;
-    color: black;
+.container ul li {
+	list-style: none;
+	padding: 20px;
+	padding-bottom: 0px;
+	font: bold;
+	font-family: 'Proxima Nova Extra Condensed', sans-serif;
+	font-weight: 700;
+	box-sizing: border-box;
+	border-bottom: ridge 2px black;
 }
 
-
-.search_button{
-    width: 17px;
-}
-.container a{
-    text-align: center;
-    display: flex;
-    padding: 0px;
-}
-
-.control_buttons{
-    align-items: center;
-    display: flex;
-}
-
-.control_buttons img{
-    margin: 10px;
-}
-
-.control_buttons a :hover{
-border: transparent;
-border-radius: 100%;
-background-color: #66971b;
-transition: 0.4s;
+.container ul li a {
+	text-decoration: none;
+	color: black;
 }
 
 
-.container ul li :hover{
-    color: #66971b;
-    border: transparent;
-    border-radius: 8px;
-    position:relative;
-    transition: 0.4s ease;
+.search_button {
+	width: 17px;
+}
+
+.container a {
+	text-align: center;
+	display: flex;
+	padding: 0px;
+}
+
+.control_buttons {
+	align-items: center;
+	display: flex;
+}
+
+.control_buttons img {
+	margin: 10px;
+}
+
+.control_buttons a :hover {
+	border: transparent;
+	border-radius: 100%;
+	background-color: #66971b;
+	transition: 0.4s;
+}
+
+
+.container ul li :hover {
+	color: #66971b;
+	border: transparent;
+	border-radius: 8px;
+	position: relative;
+	transition: 0.4s ease;
 }
 
 
 /* first part */
 
-.first_part{
-    padding-top: 30px;
-    position: relative;
-    align-items: center;
-    overflow: hidden;
-}
-.first_part img{
-    width: 100%;
-    display:block;
-}
-.photo_text{
-    position: absolute;
-    font-family: 'Proxima Nova Extra Condensed', sans-serif;
-    top: 16%;
-    right: 10%;
-    display: block;
-    width: 500px;
-    padding: 40px;
-    background-color: rgba(241, 241, 241, 0.26);
-}
-.learn_more{
-    height: 40px;
-    width: 140px;
-    background-color: white;
-    border: transparent;
-    font-size:medium;
-    font: bold;
-    font-family: 'Proxima Nova Extra Condensed', sans-serif;
-}
-.learn_more a{
-    text-decoration: none;
-    color: black;
+.first_part {
+	padding-top: 30px;
+	position: relative;
+	align-items: center;
+	overflow: hidden;
 }
 
-.learn_more:hover{
-    background-color: #66971b;
-    transition: 0.4s ease;
+.first_part img {
+	width: 100%;
+	display: block;
 }
 
+.photo_text {
+	position: absolute;
+	font-family: 'Proxima Nova Extra Condensed', sans-serif;
+	top: 16%;
+	right: 10%;
+	display: block;
+	width: 500px;
+	padding: 40px;
+	background-color: rgba(241, 241, 241, 0.26);
+}
 
+.learn_more {
+	height: 40px;
+	width: 140px;
+	background-color: white;
+	border: transparent;
+	font-size: medium;
+	font: bold;
+	font-family: 'Proxima Nova Extra Condensed', sans-serif;
+}
+
+.learn_more a {
+	text-decoration: none;
+	color: black;
+}
+
+.learn_more:hover {
+	background-color: #66971b;
+	transition: 0.4s ease;
+}
 
 
 /* second part */
 
 .container_scn {
-    position: relative; 
-    text-align: center; 
-  }
-  
-  .bckg_scn {
-    width: 100%; 
-    height: auto; 
-  }
-  
-  .firstlayout h1 {
-    position: absolute;
-    top: 0; 
-    left: 50%; 
-    transform: translateX(-50%); 
-    margin: 0;
-    padding: 20px 0;
-    color: #000000; 
-    font-size: 3em;
-    padding-top: 80PX;
-  }
-  .firstlayout p {
-    position: absolute;
-    top: 100px; 
-    left: 50%; 
-    transform: translateX(-50%); 
-    margin: 0;
-    padding: top 10px;; 
-    color: #000000; 
-    font-size: 1em;
-    padding-top: 40PX;
-  }
+	position: relative;
+	text-align: center;
+}
 
-  .photosbar{
-    position: absolute;
-    top: 100px; 
-    left: 50%; 
-    transform: translateX(-50%); 
-    margin: 0;
-    padding: top 10px;; 
-    color: #000000; 
-    font-size: 1em;
-    padding-top: 40PX;
-    display: flex;
-    gap: 10px;
-  }
+.bckg_scn {
+	width: 100%;
+	height: auto;
+}
 
-  .dualphoto{
-    margin: 0px;
-    display: grid;
-    gap: 10px;
-  }
-  .photosbar{
-    align-items: center;
-    padding: 100px;
-    margin: 0px;
-  }
+.firstlayout h1 {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	margin: 0;
+	padding: 20px 0;
+	color: #000000;
+	font-size: 3em;
+	padding-top: 80PX;
+  padding-bottom: 0;
+}
+
+.firstlayout p {
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	transform: translateX(-50%);
+	margin: 0;
+	padding: top 10px;
+  padding-bottom: 0;
+  border-bottom: solid 1px black;
+	color: #000000;
+	font-size: 1em;
+	padding-top: 40PX;
+}
+
+.photosbar {
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	transform: translateX(-50%);
+	margin: 0;
+	padding: top 10px;
+	;
+	color: #000000;
+	font-size: 1em;
+	padding-top: 40PX;
+	display: flex;
+	gap: 10px;
+}
+
+.dualphoto {
+	margin: 0px;
+	display: grid;
+	gap: 10px;
+}
+
+.photosbar {
+	align-items: center;
+	padding: 100px;
+	margin: 0px;
+}
 
 .photo1 {
-    opacity: 1;
-    transition: opacity 0.3s ease;
-    position: relative;
+	opacity: 1;
+	transition: opacity 0.3s ease;
+	position: relative;
 }
+
 .photo1:hover {
-  opacity: 0.7;
+	opacity: 0.7;
 }
 
 .photo2 {
-  opacity: 1;
-  transition: opacity 0.3s ease;
+	opacity: 1;
+	transition: opacity 0.3s ease;
 }
+
 .photo2:hover {
-opacity: 0.7;
+	opacity: 0.7;
 
 }
 
 .photo3 {
-  opacity: 1;
-  transition: opacity 0.3s ease;
+	opacity: 1;
+	transition: opacity 0.3s ease;
 }
+
 .photo3:hover {
-opacity: 0.7;
+	opacity: 0.7;
 }
+
 .photo4 {
-  opacity: 1;
-  transition: opacity 0.3s ease;
+	opacity: 1;
+	transition: opacity 0.3s ease;
 }
+
 .photo4:hover {
-opacity: 0.7;
+	opacity: 0.7;
 }
 
 .imghover1 {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .imghover1 img {
-  width: 400px; 
-  height: 530px; 
-  display: block; 
+	width: 400px;
+	height: 530px;
+	display: block;
 }
 
 .imghover1 h2 {
-  position: absolute;
-  width: 100%;
-  color: rgb(52, 255, 62);
-  background-color: aliceblue;
-  text-align: center;
-  opacity: 0;
-  transition: opacity 0.3s;
-  padding-top: 50px;
-  padding-bottom: 50px;
+	position: absolute;
+	width: 100%;
+	color: rgb(52, 255, 62);
+	background-color: aliceblue;
+	text-align: center;
+	opacity: 0;
+	transition: opacity 0.3s;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .imghover1:hover h2 {
-  opacity: 1; 
+	opacity: 1;
 }
-
-
-
-
 
 
 .imghover2 {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .imghover2 img {
-  width: 400px; 
-  height: 530px; 
-  display: block;
+	width: 400px;
+	height: 530px;
+	display: block;
 }
 
 .imghover2 h2 {
-  position: absolute;
-  width: 100%;
-  color: rgb(52, 255, 62);
-  background-color: aliceblue;
-  text-align: center;
-  opacity: 0;
-  transition: opacity 0.3s;
-  padding-top: 50px;
-  padding-bottom: 50px;
+	position: absolute;
+	width: 100%;
+	color: rgb(52, 255, 62);
+	background-color: aliceblue;
+	text-align: center;
+	opacity: 0;
+	transition: opacity 0.3s;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .imghover2:hover h2 {
-  opacity: 1; 
+	opacity: 1;
 }
-
-
-
 
 
 .imghover3 {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .imghover3 img {
-  width: 300px; 
-  height: 260px; 
-  display: block; 
+	width: 300px;
+	height: 260px;
+	display: block;
 }
 
 .imghover3 h2 {
-  position: absolute;
-  width: 100%;
-  color: rgb(52, 255, 62);
-  background-color: aliceblue;
-  text-align: center;
-  opacity: 0;
-  transition: opacity 0.3s;
-  padding-top: 26px;
-  padding-bottom: 26px;
+	position: absolute;
+	width: 100%;
+	color: rgb(52, 255, 62);
+	background-color: aliceblue;
+	text-align: center;
+	opacity: 0;
+	transition: opacity 0.3s;
+	padding-top: 26px;
+	padding-bottom: 26px;
 }
 
 .imghover3:hover h2 {
-  opacity: 1; 
+	opacity: 1;
 }
-
-
-
 
 
 .imghover4 {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .imghover4 img {
-  width: 300px; 
-  height: 260px; 
-  display: block; 
+	width: 300px;
+	height: 260px;
+	display: block;
 }
 
 .imghover4 h2 {
-  position: absolute;
-  width: 100%;
-  color: rgb(52, 255, 62);
-  background-color: aliceblue;
-  text-align: center;
-  opacity: 0;
-  transition: opacity 0.3s;
-  padding-top: 26px;
-  padding-bottom: 26px;
+	position: absolute;
+	width: 100%;
+	color: rgb(52, 255, 62);
+	background-color: aliceblue;
+	text-align: center;
+	opacity: 0;
+	transition: opacity 0.3s;
+	padding-top: 26px;
+	padding-bottom: 26px;
 }
 
 .imghover4:hover h2 {
-  opacity: 1; 
+	opacity: 1;
 }
