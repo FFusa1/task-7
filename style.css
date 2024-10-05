@@ -236,6 +236,8 @@ opacity: 0.7;
   text-align: center;
   opacity: 0;
   transition: opacity 0.3s;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .imghover1:hover h2 {
@@ -268,6 +270,8 @@ opacity: 0.7;
   text-align: center;
   opacity: 0;
   transition: opacity 0.3s;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .imghover2:hover h2 {
@@ -299,6 +303,8 @@ opacity: 0.7;
   text-align: center;
   opacity: 0;
   transition: opacity 0.3s;
+  padding-top: 26px;
+  padding-bottom: 26px;
 }
 
 .imghover3:hover h2 {
@@ -330,6 +336,8 @@ opacity: 0.7;
   text-align: center;
   opacity: 0;
   transition: opacity 0.3s;
+  padding-top: 26px;
+  padding-bottom: 26px;
 }
 
 .imghover4:hover h2 {
