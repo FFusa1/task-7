@@ -168,13 +168,13 @@ transition: 0.4s;
     font-size: 1em;
     padding-top: 40PX;
     display: flex;
-    gap: 20px;
+    gap: 10px;
   }
 
   .dualphoto{
     margin: 0px;
     display: grid;
-    gap: 20px;
+    gap: 10px;
   }
   .photosbar{
     align-items: center;
@@ -224,7 +224,7 @@ opacity: 0.7;
 
 .imghover1 img {
   width: 400px; 
-  height: 540px; 
+  height: 530px; 
   display: block; 
 }
 
@@ -256,7 +256,7 @@ opacity: 0.7;
 
 .imghover2 img {
   width: 400px; 
-  height: 540px; 
+  height: 530px; 
   display: block;
 }
 
