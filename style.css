@@ -174,33 +174,164 @@ transition: 0.4s;
   .dualphoto{
     margin: 0px;
     display: grid;
-    gap: 70px;
+    gap: 20px;
   }
   .photosbar{
     align-items: center;
     padding: 100px;
+    margin: 0px;
   }
 
-  .photo1{
-    width: 400px;
-    height: 500px;
+.photo1 {
+    opacity: 1;
+    transition: opacity 0.3s ease;
     position: relative;
-  }
-  .photo2{
-    width: 400px;
-    height: 500px;
-    position: relative;
-  }
-  .photo3 {
-    width: 260px;
-    height: 220px;
-    position: relative;
-  }
-  .photo4 {
-    width: 260px;
-    height: 210px;
-    position: relative;
-  }
+}
+.photo1:hover {
+  opacity: 0.7;
+}
+
+.photo2 {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+.photo2:hover {
+opacity: 0.7;
+
+}
+
+.photo3 {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+.photo3:hover {
+opacity: 0.7;
+}
+.photo4 {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+.photo4:hover {
+opacity: 0.7;
+}
+
+.imghover1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imghover1 img {
+  width: 400px; 
+  height: 540px; 
+  display: block; 
+}
+
+.imghover1 h2 {
+  position: absolute;
+  width: 100%;
+  color: rgb(52, 255, 62);
+  background-color: aliceblue;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.imghover1:hover h2 {
+  opacity: 1; 
+}
 
 
-  
+
+
+
+
+.imghover2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imghover2 img {
+  width: 400px; 
+  height: 540px; 
+  display: block;
+}
+
+.imghover2 h2 {
+  position: absolute;
+  width: 100%;
+  color: rgb(52, 255, 62);
+  background-color: aliceblue;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.imghover2:hover h2 {
+  opacity: 1; 
+}
+
+
+
+
+
+.imghover3 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imghover3 img {
+  width: 300px; 
+  height: 260px; 
+  display: block; 
+}
+
+.imghover3 h2 {
+  position: absolute;
+  width: 100%;
+  color: rgb(52, 255, 62);
+  background-color: aliceblue;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.imghover3:hover h2 {
+  opacity: 1; 
+}
+
+
+
+
+
+.imghover4 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imghover4 img {
+  width: 300px; 
+  height: 260px; 
+  display: block; 
+}
+
+.imghover4 h2 {
+  position: absolute;
+  width: 100%;
+  color: rgb(52, 255, 62);
+  background-color: aliceblue;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.imghover4:hover h2 {
+  opacity: 1; 
+}
