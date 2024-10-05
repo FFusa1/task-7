@@ -181,9 +181,26 @@ transition: 0.4s;
     padding: 100px;
   }
 
-  .photo1 .photo2 .dualphoto{
-    width: 575px;
-    height: 590px;
+  .photo1{
+    width: 400px;
+    height: 500px;
+    position: relative;
   }
+  .photo2{
+    width: 400px;
+    height: 500px;
+    position: relative;
+  }
+  .photo3 {
+    width: 260px;
+    height: 220px;
+    position: relative;
+  }
+  .photo4 {
+    width: 260px;
+    height: 210px;
+    position: relative;
+  }
+
 
   
