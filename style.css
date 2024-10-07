@@ -178,19 +178,21 @@ header {
 	font-size: 1em;
 	padding-top: 40PX;
 	display: flex;
-	gap: 10px;
+	gap: 20px;
+	align-items: center;
+	padding: 100px;
+	margin: 0px;
 }
 
 .dualphoto {
 	margin: 0px;
 	display: grid;
-	gap: 10px;
+	gap: 20px;
 }
 
-.photosbar {
-	align-items: center;
-	padding: 100px;
-	margin: 0px;
+.photosbar a{
+	text-decoration: none;
+	color: rgb(123, 199, 125);
 }
 
 .photo1 {
@@ -239,7 +241,7 @@ header {
 }
 
 .imghover1 img {
-	width: 400px;
+	width: 500px;
 	height: 530px;
 	display: block;
 }
@@ -247,8 +249,8 @@ header {
 .imghover1 h2 {
 	position: absolute;
 	width: 100%;
-	color: rgb(52, 255, 62);
-	background-color: aliceblue;
+	color: rgb(123, 199, 125);
+	background-color: rgba(61, 45, 0, 0.795);
 	text-align: center;
 	opacity: 0;
 	transition: opacity 0.3s;
@@ -269,7 +271,7 @@ header {
 }
 
 .imghover2 img {
-	width: 400px;
+	width: 500px;
 	height: 530px;
 	display: block;
 }
@@ -277,8 +279,8 @@ header {
 .imghover2 h2 {
 	position: absolute;
 	width: 100%;
-	color: rgb(52, 255, 62);
-	background-color: aliceblue;
+	color: rgb(123, 199, 125);
+	background-color: rgba(61, 45, 0, 0.795);
 	text-align: center;
 	opacity: 0;
 	transition: opacity 0.3s;
@@ -299,16 +301,16 @@ header {
 }
 
 .imghover3 img {
-	width: 300px;
-	height: 260px;
+	width: 400px;
+	height: 254px;
 	display: block;
 }
 
 .imghover3 h2 {
 	position: absolute;
 	width: 100%;
-	color: rgb(52, 255, 62);
-	background-color: aliceblue;
+	color: rgb(123, 199, 125);
+	background-color: rgba(61, 45, 0, 0.795);
 	text-align: center;
 	opacity: 0;
 	transition: opacity 0.3s;
@@ -329,16 +331,16 @@ header {
 }
 
 .imghover4 img {
-	width: 300px;
-	height: 260px;
+	width: 400px;
+	height: 254px;
 	display: block;
 }
 
 .imghover4 h2 {
 	position: absolute;
 	width: 100%;
-	color: rgb(52, 255, 62);
-	background-color: aliceblue;
+	color: rgb(123, 199, 125);
+	background-color: rgba(61, 45, 0, 0.795);
 	text-align: center;
 	opacity: 0;
 	transition: opacity 0.3s;
@@ -348,4 +350,13 @@ header {
 
 .imghover4:hover h2 {
 	opacity: 1;
+}
+
+
+
+
+/* third part */
+
+.container_thrd{
+	position: relative;
 }
