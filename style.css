@@ -4,7 +4,6 @@
 	font-family: 'Proxima Nova Extra Condensed', sans-serif;
 }
 
-
 /* navbar */
 
 header {
@@ -357,6 +356,61 @@ header {
 
 /* third part */
 
+.mainline{
+	width: 100%;
+	border-bottom: solid 4px #66971b;
+}
 .container_thrd{
 	position: relative;
+	text-align: center;
+	margin-top: 28vh;
+}
+.container_thrd img{
+	padding-top: 40px;
+	width: 140vh;
+	height: 50vh;
+    right: 0;
+}
+
+.photo_text3{
+	position: absolute;
+	font-family: 'Proxima Nova Extra Condensed', sans-serif;
+	left: 10%;
+	top:40%;
+	display: block;
+	width: 500px;
+	padding: 40px;
+	background-color: rgba(241, 241, 241, 0.904);
+}
+
+.learn_more2 {
+	height: 40px;
+	width: 140px;
+	background-color: white;
+	border: transparent;
+	font-size: medium;
+	font: bold;
+	font-family: 'Proxima Nova Extra Condensed', sans-serif;
+}
+
+.learn_more2 a {
+	text-decoration: none;
+	color: black;
+}
+
+.learn_more2:hover {
+	background-color: #66971b;
+	transition: 0.4s ease;
+}
+
+
+/* footer */
+
+
+footer {
+	padding-top: 30px; ;
+	width: 100%;
+	height: 30vh;
+    background-image: linear-gradient(to right, #66971b , rgb(237, 255, 226) ,#66971b);
+	display: flex;
 }
